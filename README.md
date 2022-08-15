@@ -112,3 +112,7 @@ app.post("/users", function (req, res, next) {
   );
 });
 ```
+##### ER To Test
+````
+https://dbdiagram.io/d/62fa66c8c2d9cf52faace16a
+````
