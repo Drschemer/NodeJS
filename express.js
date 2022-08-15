@@ -19,7 +19,7 @@ connection.connect(function(err) {
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
-
+//code API สำหรับ READ (by id) อันนี้ถูก
 app.get('/:id', (req, res) => {
     var sqldata = 'SELECT f_name FROM tbl_node where f_id = ' + req.params.id;
     connection.query(sqldata, function (error, results, fields) {
